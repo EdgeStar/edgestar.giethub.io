@@ -1,4 +1,4 @@
-body
-{
-	background-color:#b0c4de;
+body{
+    background:url(http://ys-i.ys168.com/599258131/l4J2HMo3V45157J6IOL5/001.gif);
+    background-size:contain;
 }
