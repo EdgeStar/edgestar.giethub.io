@@ -114,4 +114,8 @@ github_issues:
   repository: edgestar2020.github.io
   filters: is:issue
 
+wordcount:
+  enable: true
+  count: true
+  time: true
 

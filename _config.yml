@@ -110,7 +110,3 @@ deploy:
   branch: master
   message: Update Hexo Static Content
 
-wordcount:
-  enable: true
-  count: true
-  time: true
