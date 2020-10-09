@@ -1,0 +1,117 @@
+# Site
+title: 边缘星云
+subtitle: ESC
+description: 测试网站，未完成
+keywords:
+  - 边缘星
+  - 火星法
+
+author: 边缘星
+language: zh-CN
+timezone: Asia/Shanghai
+
+favicon: /hx.ico
+
+font:
+  cdn:
+    enable: false
+
+avatar:
+  enable: true
+  url: /images/xz.jpg
+  rounded: true
+  opacity: 1
+  mickey_mouse: false
+
+mode: auto
+
+social:
+  - name: 永硕E盘
+    link: http://byx2020.ys168.com/
+    icon: icon-cloud-line
+    color: "#007722"
+  - name: Q群
+    # https://isux.tencent.com/wp-content/uploads/2016/05/20160512101222609.pdf
+    link: https://jq.qq.com/?_wv=1027&k=5WWAtAo
+    icon: icon-qq-line
+    color: "#12B7F5"
+  - name: GitHub
+    link: https://github.com/EdgeStar2020
+    icon: icon-github-line
+    color: "#181717"
+  - name: E-Mail
+    link: mailto:EdgeStar2020@163.com
+    icon: icon-mail-line
+    color: "#8E71C1"
+  - name: 网易云音乐
+    link: http://music.163.com/playlist/619361927/431857556
+    icon: icon-netease-cloud-music-line
+    color: "#C10D0C"
+
+pages:
+  - name: 友情链接
+    url: /links/
+    icon: icon-genderless-line
+    color: dodgerblue
+
+post_meta:
+  item_text: false
+  created_at: true
+  updated_at: true
+  categories: true
+  tags: true
+
+reward:
+  enable: false
+
+banner:
+  enable: true
+  title: 边缘星云
+  src: /js/ui/banner.js
+  banner: true
+  cloud:
+    enable: true
+    color: "white"
+  go_down:
+    enable: true
+    icon: icon-arrow-down-s-line
+
+valine:
+  enable: true
+  appId: C7GiS9j86trCmaSHwsHVTiLf-gzGzoHsz
+  appKey: cMPHW5XLJpM9oSNUOz3U28iA
+  placeholder: 欢迎留言
+  visitor: true
+  recordIP: true
+  enableQQ: true
+  requiredFields:
+    - nick
+    - mail
+
+comment:
+  tips:
+    - 邮箱仅用于获取头像
+    - 不会被公开展示
+
+footer:
+  since: 2020
+  beian:
+    enable: true
+    icp: 渝ICP备2020010275号
+
+say:
+  enable: true
+  api: https://v1.jinrishici.com/tianqi/xingxing
+  src: /js/say.js
+  # https://developer.hitokoto.cn/sentence/
+  hitokoto:
+    enable: true
+    api: https://v1.hitokoto.cn?c=i
+
+github_issues:
+  enable: false
+  username: EdgeStar2020
+  repository: edgestar2020.github.io
+  filters: is:issue
+
+
