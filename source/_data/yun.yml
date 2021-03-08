@@ -8,7 +8,6 @@ keywords:
 
 author: 边缘星2020
 language: zh-CN
-timezone: Asia/Shanghai
 
 favicon: /hx.ico
 
@@ -19,12 +18,6 @@ engine_search:
 
 cdn:
   pre: https://cdn.jsdelivr.net/gh/EdgeStar2020/edgestar2020.github.io@latest
-  css:
-  js:
-    base:
-    async:
-      iconfont: //at.alicdn.com/t/font_1140697_stqaphw3j4.js
-    defer:
 
 preload:
   style:
@@ -49,6 +42,9 @@ avatar:
   mickey_mouse: false
 
 mode: auto
+
+lazyload:
+  enable: true
 
 social:
   - name: 永硕E盘
