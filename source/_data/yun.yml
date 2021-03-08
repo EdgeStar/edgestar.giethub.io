@@ -12,6 +12,26 @@ timezone: Asia/Shanghai
 
 favicon: /hx.ico
 
+cdn:
+  pre: https://cdn.jsdelivr.net/gh/EdgeStar2020/edgestar2020.github.io@latest
+  css:
+  js:
+    base:
+    async:
+      iconfont: //at.alicdn.com/t/font_1140697_stqaphw3j4.js
+    defer:
+
+preload:
+  style:
+    - /css/hexo-theme-yun.css
+  script:
+    - /js/utils.js
+    - /js/hexo-theme-yun.js
+
+prefetch:
+  script:
+    - /js/sidebar.js
+
 font:
   cdn:
     enable: false
@@ -94,10 +114,6 @@ comment:
 
 footer:
   since: 2020
-  beian:
-    enable: true
-    icp: 渝ICP备2020010275号
-  custom_text: <a style="display:inline-block" href="https://www.upyun.com/?utm_source=lianmeng&utm_medium=referral" target="blank" title="又拍云"><img height="15" src="https://www.upyun.com/static/img/%E6%A0%B7%E5%BC%8F%E5%9B%BE.7cf927c.png" alt="upyun"/></a>
 
 say:
   enable: true
