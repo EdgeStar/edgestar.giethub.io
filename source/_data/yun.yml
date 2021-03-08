@@ -6,11 +6,16 @@ keywords:
   - 边缘星
   - 火星法
 
-author: 边缘星
+author: 边缘星2020
 language: zh-CN
 timezone: Asia/Shanghai
 
 favicon: /hx.ico
+
+engine_search:
+  enable: true
+  href: "https://www.dogedoge.com/results?q=site:"
+  domain: byx2020.com
 
 cdn:
   pre: https://cdn.jsdelivr.net/gh/EdgeStar2020/edgestar2020.github.io@latest
@@ -106,7 +111,6 @@ valine:
   enableQQ: true
   requiredFields:
     - nick
-    - mail
 
 comment:
   tips:
