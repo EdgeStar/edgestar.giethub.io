@@ -13,8 +13,14 @@ favicon: /hx.ico
 
 engine_search:
   enable: true
-  href: "https://www.dogedoge.com/results?q=site:"
+  href: "https://cn.bing.com/search?q=site:"
   domain: byx2020.com
+
+local_search:
+  enable: false
+
+algolia_search:
+  enable: false
 
 cdn:
   pre: https://cdn.jsdelivr.net/gh/EdgeStar2020/edgestar2020.github.io@latest
