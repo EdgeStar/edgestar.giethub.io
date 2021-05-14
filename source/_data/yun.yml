@@ -1,27 +1,16 @@
 banner:
   enable: true
   title: 边缘 星云
-  src: /js/ui/banner.js
-  border: true
-  cloud:
-    enable: true
-    color: "white"
-  go_down:
-    enable: true
-    icon: icon-arrow-down-s-line
 
 author: 边缘星2020
 language: zh-CN
 
-favicon: /images/ico/hx_web.ico
+favicon: /hx_web.ico
 
 engine_search:
   enable: true
   href: "https://cn.bing.com/search?q=site:"
   domain: byx2020.com
-
-cdn:
-  pre: https://cdn.jsdelivr.net/gh/EdgeStar2020/edgestar2020.github.io@latest
 
 font:
   cdn:
@@ -29,7 +18,7 @@ font:
 
 avatar:
   enable: true
-  url: /images/xz_web.jpg
+  url: /xz_web.jpg
   rounded: true
   opacity: 1
   mickey_mouse: false
