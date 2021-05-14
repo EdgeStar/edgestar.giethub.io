@@ -13,7 +13,7 @@ banner:
 author: 边缘星2020
 language: zh-CN
 
-favicon: /hx.ico
+favicon: /images/ico/hx_web.ico
 
 engine_search:
   enable: true
@@ -29,7 +29,7 @@ font:
 
 avatar:
   enable: true
-  url: /images/xz.jpg
+  url: /images/xz_web.jpg
   rounded: true
   opacity: 1
   mickey_mouse: false
