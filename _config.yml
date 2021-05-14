@@ -3,17 +3,18 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hello Midway FaaS
-subtitle: 'Run hexo on serverless by midway-faas'
-description: ''
+title: 边缘星云
+subtitle: 2020
+description: 边缘星
 keywords:
-author: midwayjs
+  - 边缘星
+author: 边缘星2020
 language: zh-CN
 timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://www.byx2020.com
+url: https://www.byx2020.com
 root: /
 # permalink: :year/:month/:day/:title/
 # permalink_defaults:
