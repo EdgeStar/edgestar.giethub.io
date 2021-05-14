@@ -1,10 +1,14 @@
-# Site
-title: 边缘星云
-subtitle: ESC
-description: 测试网站，未完成
-keywords:
-  - 边缘星
-  - 火星法
+banner:
+  enable: true
+  title: 边缘 星云
+  src: /js/ui/banner.js
+  border: true
+  cloud:
+    enable: true
+    color: "white"
+  go_down:
+    enable: true
+    icon: icon-arrow-down-s-line
 
 author: 边缘星2020
 language: zh-CN
@@ -16,25 +20,8 @@ engine_search:
   href: "https://cn.bing.com/search?q=site:"
   domain: byx2020.com
 
-local_search:
-  enable: false
-
-algolia_search:
-  enable: false
-
 cdn:
   pre: https://cdn.jsdelivr.net/gh/EdgeStar2020/edgestar2020.github.io@latest
-
-preload:
-  style:
-    - /css/hexo-theme-yun.css
-  script:
-    - /js/utils.js
-    - /js/hexo-theme-yun.js
-
-prefetch:
-  script:
-    - /js/sidebar.js
 
 font:
   cdn:
@@ -46,11 +33,10 @@ avatar:
   rounded: true
   opacity: 1
   mickey_mouse: false
+  status:
+    enable: false
 
 mode: auto
-
-lazyload:
-  enable: true
 
 social:
   - name: 永硕E盘
@@ -80,13 +66,6 @@ pages:
     url: /links/
     icon: icon-genderless-line
     color: dodgerblue
-
-post_meta:
-  item_text: false
-  created_at: true
-  updated_at: true
-  categories: true
-  tags: true
 
 reward:
   enable: false
@@ -119,7 +98,7 @@ comment:
     - 邮箱仅用于获取头像，不会被公开展示
 
 footer:
-  since: 2020
+  since: 2020-2021
 
 say:
   enable: true
