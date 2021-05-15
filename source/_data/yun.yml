@@ -6,9 +6,6 @@ favicon: /hx_web.ico
 avatar:
   url: /xz_web.jpg
 
-cdn:
-  pre: https://cdn.jsdelivr.net/gh/EdgeStar2020/edgestar2020.github.io@latest
-
 search:
   modal: false
 
@@ -29,7 +26,6 @@ social:
     icon: icon-cloud-line
     color: "#007722"
   - name: Q群
-    # https://isux.tencent.com/wp-content/uploads/2016/05/20160512101222609.pdf
     link: https://jq.qq.com/?_wv=1027&k=5WWAtAo
     icon: icon-qq-line
     color: "#12B7F5"
@@ -48,9 +44,6 @@ social:
 
 pages:
   - name: 友情链接
-    url: /links/
-    icon: icon-genderless-line
-    color: dodgerblue
 
 reward:
   enable: false
