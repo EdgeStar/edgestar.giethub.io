@@ -15,14 +15,6 @@ pages:
     icon: icon-genderless-line
     color: dodgerblue
 
-search:
-  modal: false
-
-engine_search:
-  enable: true
-  href: "https://cn.bing.com/search?q=site:"
-  domain: byx2020.com
-
 font:
   cdn:
     enable: false
