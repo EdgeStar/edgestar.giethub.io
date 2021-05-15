@@ -1,10 +1,19 @@
 banner:
   title: 边缘星云
 
-favicon: /hx_web.ico
+favicon: /images/ico/hx_web.ico
 
 avatar:
-  url: /xz_web.jpg
+  url: /images/xz_web.jpg
+
+cdn:
+  pre: https://cdn.jsdelivr.net/gh/EdgeStar2020/edgestar2020.github.io@latest
+
+pages:
+  - name: 友情链接
+    url: /links/
+    icon: icon-genderless-line
+    color: dodgerblue
 
 search:
   modal: false
@@ -18,8 +27,6 @@ font:
   cdn:
     enable: false
 
-mode: auto
-
 social:
   - name: 永硕E盘
     link: http://byx2020.ys168.com/
@@ -32,7 +39,7 @@ social:
   - name: GitHub
     link: https://github.com/EdgeStar2020
     icon: icon-github-line
-    color: "#181717"
+    color: "#6e5494"
   - name: E-Mail
     link: mailto:EdgeStar2020@gmail.com
     icon: icon-mail-line
@@ -40,10 +47,7 @@ social:
   - name: 网易云音乐
     link: http://music.163.com/playlist/619361927/431857556
     icon: icon-netease-cloud-music-line
-    color: "#C10D0C"
-
-pages:
-  - name: 友情链接
+    color: "#C20C0C"
 
 reward:
   enable: false
@@ -68,7 +72,6 @@ footer:
 
 say:
   enable: true
-  api: https://v1.jinrishici.com/tianqi/xingxing
   hitokoto:
     enable: true
     api: https://v1.hitokoto.cn?c=i
