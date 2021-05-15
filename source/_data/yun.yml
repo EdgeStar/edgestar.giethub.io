@@ -1,11 +1,16 @@
 banner:
-  enable: true
   title: 边缘星云
 
-author: 边缘星2020
-language: zh-CN
-
 favicon: /hx_web.ico
+
+avatar:
+  url: /xz_web.jpg
+
+cdn:
+  pre: https://cdn.jsdelivr.net/gh/EdgeStar2020/edgestar2020.github.io@latest
+
+search:
+  modal: false
 
 engine_search:
   enable: true
@@ -14,15 +19,6 @@ engine_search:
 
 font:
   cdn:
-    enable: false
-
-avatar:
-  enable: true
-  url: /xz_web.jpg
-  rounded: true
-  opacity: 1
-  mickey_mouse: false
-  status:
     enable: false
 
 mode: auto
@@ -59,18 +55,6 @@ pages:
 reward:
   enable: false
 
-banner:
-  enable: true
-  title: 边缘星云
-  src: /js/ui/banner.js
-  banner: true
-  cloud:
-    enable: true
-    color: "white"
-  go_down:
-    enable: true
-    icon: icon-arrow-down-s-line
-
 valine:
   enable: true
   appId: C7GiS9j86trCmaSHwsHVTiLf-gzGzoHsz
@@ -92,8 +76,6 @@ footer:
 say:
   enable: true
   api: https://v1.jinrishici.com/tianqi/xingxing
-  src: /js/say.js
-  # https://developer.hitokoto.cn/sentence/
   hitokoto:
     enable: true
     api: https://v1.hitokoto.cn?c=i
