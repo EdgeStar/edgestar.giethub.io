@@ -1,11 +1,7 @@
 ---
 title: 火星法
-icon: /hx.ico
 author: 边缘星2020
-email:edgestar2020@gmail.com
-description: 内容仅供参考
 excerpt: 本文中的火星指什么？
-readmore: true
 categories:
 - 杂项
 tags:
