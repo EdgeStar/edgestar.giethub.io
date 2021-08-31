@@ -7,7 +7,7 @@ avatar:
   url: /images/xz_web.jpg
 
 cdn:
-  pre: https://cdn.jsdelivr.net/gh/EdgeStar2020/edgestar2020.github.io@latest
+  pre: https://cdn.jsdelivr.net/gh/byx2020/byx2020.github.io@latest
 
 pages:
   - name: 友情链接
@@ -29,7 +29,7 @@ social:
     icon: icon-qq-line
     color: "#12B7F5"
   - name: GitHub
-    link: https://github.com/EdgeStar2020
+    link: https://github.com/byx2020
     icon: icon-github-line
     color: "#6e5494"
   - name: E-Mail
@@ -70,8 +70,8 @@ say:
 
 github_issues:
   enable: false
-  username: EdgeStar2020
-  repository: edgestar2020.github.io
+  username: byx2020
+  repository: byx2020.github.io
   filters: is:issue
 
 wordcount:
